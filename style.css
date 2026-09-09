@@ -1,0 +1,162 @@
+h1{
+    font-family: Oswald;
+}
+
+h2{
+    font-family: Oswald;
+}
+
+h4{
+    font-family: Oswald;
+}
+
+p{
+    font-family: Roboto;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+}
+
+
+main{
+    background-color: #FFFAFA;
+}
+
+footer{
+    background-color: #5A5A5A;
+}
+
+
+.header{
+    background-color: #6D8196;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header h1{
+    display: inline-block;
+    color: #B0C4DE;
+    margin: 25px;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.navbar li{
+    display: inline-block;
+    margin: 5px;
+    border-style: solid;
+    padding: 10px;
+    border-color: #B0C4DE;
+    border-radius: 15px;
+}
+
+.navbar li:hover{
+    background-color: #B0C4DE;
+
+}
+
+.navbar li:hover a {
+    color: #6D8196; 
+}
+
+.navbar a{
+    font-family: Roboto;
+    font-weight: bold;
+    color: #B0C4DE;
+}
+
+.overmij{
+    background-color: antiquewhite;
+    padding: 3%;
+}
+
+.kop1{
+    background-color: beige;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    box-shadow: 2px 2px 20px rgb(60, 60, 60);
+}
+
+.kop1 h4{
+    padding-left: 2%;
+    padding: 1%;
+    margin: 0;
+}
+
+.kop1 p{
+    padding-left: 2%;
+    padding: 1%;
+    margin: 0;
+}
+
+.kop2{
+    background-color: beige;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    box-shadow: 2px 2px 20px rgb(60, 60, 60);
+}
+
+.kop2 h4{
+    padding-left: 2%;
+    padding: 1%;
+    margin: 0;
+}
+
+.kop2 p{
+    padding-left: 2%;
+    padding: 1%;
+    margin: 0;
+}
+
+.kop3{
+    background-color: beige;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    box-shadow: 2px 2px 20px rgb(60, 60, 60);
+}
+
+.kop3 h4{
+    padding-left: 2%;
+    padding: 1%;
+    margin: 0;
+}
+
+.kop3 p{
+    padding-left: 2%;
+    padding: 1%;
+    margin: 0;
+}
+
+
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .header h1 {
+        margin: 15px 0; 
+    }
+
+    .navbar ul {
+        margin-left: 0; 
+        padding: 0;
+        justify-content: center;
+    }
+}
