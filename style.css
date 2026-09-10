@@ -4,6 +4,9 @@ h1{
 
 h2{
     font-family: Oswald;
+    font-size: 250%;
+    margin: 0;
+    margin-bottom: 5%;
 }
 
 h4{
@@ -29,6 +32,8 @@ main{
 
 footer{
     background-color: #5A5A5A;
+    padding: 1%;
+    overflow: auto;
 }
 
 
@@ -38,6 +43,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+    position: sticky;
 }
 
 .header h1{
@@ -91,6 +97,15 @@ footer{
     border-radius: 10px;
     margin-bottom: 2%;
     box-shadow: 2px 2px 20px rgb(60, 60, 60);
+    overflow: auto;
+}
+
+.kop1 img{
+    float: left;
+    margin: 1%;
+    margin-right: 2%;
+    box-shadow: 2px 2px 20px rgb(60, 60, 60);
+    border-radius: 5px;
 }
 
 .kop1 h4{
@@ -110,6 +125,15 @@ footer{
     border-radius: 10px;
     margin-bottom: 2%;
     box-shadow: 2px 2px 20px rgb(60, 60, 60);
+    overflow: auto;
+}
+
+.kop2 img{
+    float: right;
+    margin: 1%;
+    margin-right: 2%;
+    box-shadow: 2px 2px 20px rgb(60, 60, 60);
+    border-radius: 5px;
 }
 
 .kop2 h4{
@@ -129,6 +153,15 @@ footer{
     border-radius: 10px;
     margin-bottom: 2%;
     box-shadow: 2px 2px 20px rgb(60, 60, 60);
+    overflow: auto;
+}
+
+.kop3 img{
+    float: left;
+    margin: 1%;
+    margin-right: 2%;
+    box-shadow: 2px 2px 20px rgb(60, 60, 60);
+    border-radius: 5px;
 }
 
 .kop3 h4{
@@ -140,6 +173,10 @@ footer{
 .kop3 p{
     padding-left: 2%;
     padding: 1%;
+    margin: 0;
+}
+
+#contact{
     margin: 0;
 }
 
