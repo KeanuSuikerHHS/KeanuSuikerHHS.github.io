@@ -4,9 +4,9 @@ h1{
 
 h2{
     font-family: Oswald;
-    font-size: 250%;
+    font-size: 1.5rem;
     margin: 0;
-    margin-bottom: 5%;
+    margin-bottom: 1rem;
 }
 
 h4{
@@ -19,181 +19,247 @@ p{
 
 a{
     text-decoration: none;
+    color: white;
 }
 
-body{
+html, body {
     margin: 0;
+    min-height: 100%;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: antiquewhite;
+}
 
-main{
-    background-color: #FFFAFA;
+main {
+    flex: 1;
 }
 
 footer{
     background-color: #5A5A5A;
-    padding: 1%;
-    overflow: auto;
+    padding: .5rem;
+    margin: 0;
 }
 
 
-.header{
+header{
     background-color: #6D8196;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 1rem;
     position: sticky;
+    top: 0;
 }
 
-.header h1{
-    display: inline-block;
+header h1{
     color: #B0C4DE;
-    margin: 25px;
+    margin: 1.2rem;
 }
 
-.navbar{
+nav{
     display: inline-block;
 }
 
-.navbar ul{
+nav ul{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: .9rem;
+    width: 20rem;
 }
 
-.navbar li{
-    display: inline-block;
-    margin: 5px;
+nav li{
     border-style: solid;
-    padding: 10px;
+    padding: .6rem;
     border-color: #B0C4DE;
     border-radius: 15px;
+    flex-basis: 4.4rem;
+    text-align: center;
 }
 
-.navbar li:hover{
+nav li:hover{
     background-color: #B0C4DE;
 
 }
 
-.navbar li:hover a {
+nav li:hover a {
     color: #6D8196; 
 }
 
-.navbar a{
+nav a{
     font-family: Roboto;
     font-weight: bold;
     color: #B0C4DE;
 }
 
 .overmij{
-    background-color: antiquewhite;
-    padding: 3%;
+    padding: 1rem;
 }
 
 .kop1{
+    display: flex;
     background-color: beige;
     border-radius: 10px;
-    margin-bottom: 2%;
+    margin-bottom: 2rem;
     box-shadow: 2px 2px 20px rgb(60, 60, 60);
-    overflow: auto;
 }
 
 .kop1 img{
-    float: left;
-    margin: 1%;
-    margin-right: 2%;
+    height: auto;
+    width: 4rem;
+    margin: .4rem;
     box-shadow: 2px 2px 20px rgb(60, 60, 60);
     border-radius: 5px;
 }
 
 .kop1 h4{
-    padding-left: 2%;
-    padding: 1%;
+    padding: .4rem;
     margin: 0;
 }
 
 .kop1 p{
-    padding-left: 2%;
-    padding: 1%;
+    padding: .4rem;
     margin: 0;
 }
 
 .kop2{
+    display: flex;
+    flex-direction: row-reverse;
     background-color: beige;
     border-radius: 10px;
-    margin-bottom: 2%;
+    margin-bottom: 2rem;
     box-shadow: 2px 2px 20px rgb(60, 60, 60);
-    overflow: auto;
 }
 
 .kop2 img{
-    float: right;
-    margin: 1%;
-    margin-right: 2%;
+    height: auto;
+    width: 4rem;
+    margin: .4rem;
     box-shadow: 2px 2px 20px rgb(60, 60, 60);
     border-radius: 5px;
 }
 
 .kop2 h4{
-    padding-left: 2%;
-    padding: 1%;
+    padding: .4rem;
     margin: 0;
 }
 
 .kop2 p{
-    padding-left: 2%;
-    padding: 1%;
+    padding: .4rem;
     margin: 0;
 }
 
 .kop3{
+    display: flex;
     background-color: beige;
     border-radius: 10px;
-    margin-bottom: 2%;
+    margin-bottom: 2rem;
     box-shadow: 2px 2px 20px rgb(60, 60, 60);
-    overflow: auto;
 }
 
 .kop3 img{
-    float: left;
-    margin: 1%;
-    margin-right: 2%;
+    height: auto;
+    width: 4rem;
+    margin: .4rem;
     box-shadow: 2px 2px 20px rgb(60, 60, 60);
     border-radius: 5px;
 }
 
 .kop3 h4{
-    padding-left: 2%;
-    padding: 1%;
+    padding: .4rem;
     margin: 0;
 }
 
 .kop3 p{
-    padding-left: 2%;
-    padding: 1%;
+    padding: .4rem;
     margin: 0;
 }
 
 #contact{
     margin: 0;
+    color: white;
+}
+
+.socials{
+    display: flex;
+    gap: 2rem;
+}
+
+.socials p{
+    margin: 0;
+}
+
+.media{
+    margin-top: 1rem;
+    color: white;
+}
+
+.projectkaart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #B0C4DE;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: whitesmoke;
+    max-width: 30rem;
+    padding: 1rem;
+}
+
+.projectkaart img {
+    width: 6rem;
+    height: 6rem;
+}
+
+.projectkaart h3{
+    font-family: Oswald;
+}
+
+.projectkaart a {
+    color: black;
+    font-family: Roboto;
+    background-color: #6D8196;
+    padding: .3rem;
+    border-radius: 5px;
+}
+
+.projecten {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
 }
 
 
 @media (max-width: 600px) {
-    .header {
+    header {
         flex-direction: column; 
         text-align: center;
     }
 
-    .header h1 {
+    header h1 {
         margin: 15px 0; 
     }
 
-    .navbar ul {
+    nav ul {
         margin-left: 0; 
         padding: 0;
         justify-content: center;
+    }
+
+    footer{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .projectkaart{
+        max-width: 100%;
     }
 }
