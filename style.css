@@ -106,11 +106,11 @@ nav a{
     border-radius: 10px;
     margin-bottom: 2rem;
     box-shadow: 2px 2px 20px rgb(60, 60, 60);
+    min-height: 13rem;
 }
 
 .kop1 img{
-    height: auto;
-    width: 4rem;
+    max-width: 6rem;
     margin: .4rem;
     box-shadow: 2px 2px 20px rgb(60, 60, 60);
     border-radius: 5px;
@@ -133,11 +133,11 @@ nav a{
     border-radius: 10px;
     margin-bottom: 2rem;
     box-shadow: 2px 2px 20px rgb(60, 60, 60);
+    min-height: 13rem;
 }
 
 .kop2 img{
-    height: auto;
-    width: 4rem;
+    max-width: 6rem;
     margin: .4rem;
     box-shadow: 2px 2px 20px rgb(60, 60, 60);
     border-radius: 5px;
@@ -159,11 +159,11 @@ nav a{
     border-radius: 10px;
     margin-bottom: 2rem;
     box-shadow: 2px 2px 20px rgb(60, 60, 60);
+    min-height: 13rem;
 }
 
 .kop3 img{
-    height: auto;
-    width: 4rem;
+    max-width: 6rem;
     margin: .4rem;
     box-shadow: 2px 2px 20px rgb(60, 60, 60);
     border-radius: 5px;
@@ -236,6 +236,42 @@ nav a{
     gap: 1rem;
 }
 
+.blogkaart{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #B0C4DE;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: whitesmoke;
+    max-width: 50rem;
+    padding: 1rem;
+    gap: 5rem;
+}
+
+.blogkaart p, img {
+    margin: 0;
+}
+
+.blogkaart img {
+    max-width: 3rem;
+}
+
+.userinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.blogs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
 
 @media (max-width: 600px) {
     header {
@@ -259,7 +295,15 @@ nav a{
         align-items: center;
     }
 
+    .socials{
+        justify-content: center;
+    }
+
     .projectkaart{
+        max-width: 100%;
+    }
+
+    .blogkaart {
         max-width: 100%;
     }
 }
