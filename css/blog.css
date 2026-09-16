@@ -26,6 +26,10 @@
     gap: 1rem;
 }
 
+.userinfo h3 {
+    margin: 0;
+}
+
 .blogs{
     display: flex;
     flex-direction: column;

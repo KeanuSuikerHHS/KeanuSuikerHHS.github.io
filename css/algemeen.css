@@ -62,7 +62,7 @@ header{
 }
 
 header h1{
-    color: #B0C4DE;
+    color: white;
     margin: 1.2rem;
 }
 
@@ -81,14 +81,14 @@ nav ul{
 nav li{
     border-style: solid;
     padding: .6rem;
-    border-color: #B0C4DE;
+    border-color: white;
     border-radius: 15px;
     flex-basis: 4.4rem;
     text-align: center;
 }
 
 nav li:hover{
-    background-color: #B0C4DE;
+    background-color: white;
 
 }
 
@@ -99,7 +99,7 @@ nav li:hover a {
 nav a{
     font-family: Roboto;
     font-weight: bold;
-    color: #B0C4DE;
+    color: white;
 }
 
 #contact{
