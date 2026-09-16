@@ -3,10 +3,10 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: #B0C4DE;
+    background-color: #FFFFFF;
     border-radius: 10px;
     border-style: solid;
-    border-color: whitesmoke;
+    border-color: #E2E8F0;
     max-width: 30rem;
     padding: 1rem;
 }
@@ -21,9 +21,9 @@
 }
 
 .projectkaart a {
-    color: black;
+    color: #FFFFFF;
     font-family: Roboto;
-    background-color: #6D8196;
+    background-color: #1A365D;
     padding: .3rem;
     border-radius: 5px;
 }
