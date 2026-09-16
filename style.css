@@ -9,6 +9,18 @@ h2{
     margin-bottom: 1rem;
 }
 
+h3{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: medium;
+}
+
+.overmij h3 {
+    font-family: Oswald;
+    font-weight: bold;
+
+}
+
 h4{
     font-family: Oswald;
 }
@@ -116,7 +128,7 @@ nav a{
     border-radius: 5px;
 }
 
-.kop1 h4{
+.kop1 h3{
     padding: .4rem;
     margin: 0;
 }
@@ -143,7 +155,7 @@ nav a{
     border-radius: 5px;
 }
 
-.kop2 h4{
+.kop2 h3{
     padding: .4rem;
     margin: 0;
 }
@@ -169,7 +181,7 @@ nav a{
     border-radius: 5px;
 }
 
-.kop3 h4{
+.kop3 h3{
     padding: .4rem;
     margin: 0;
 }
