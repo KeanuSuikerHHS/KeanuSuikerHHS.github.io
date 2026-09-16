@@ -1,0 +1,88 @@
+.overmij h3 {
+    font-family: Oswald;
+    font-weight: bold;
+
+}
+
+.overmij{
+    padding: 1rem;
+}
+
+.kop1{
+    display: flex;
+    background-color: beige;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 2px 2px 20px rgb(60, 60, 60);
+    min-height: 13rem;
+}
+
+.kop1 img{
+    max-width: 6rem;
+    margin: .4rem;
+    box-shadow: 2px 2px 20px rgb(60, 60, 60);
+    border-radius: 5px;
+}
+
+.kop1 h3{
+    padding: .4rem;
+    margin: 0;
+}
+
+.kop1 p{
+    padding: .4rem;
+    margin: 0;
+}
+
+.kop2{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: beige;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 2px 2px 20px rgb(60, 60, 60);
+    min-height: 13rem;
+}
+
+.kop2 img{
+    max-width: 6rem;
+    margin: .4rem;
+    box-shadow: 2px 2px 20px rgb(60, 60, 60);
+    border-radius: 5px;
+}
+
+.kop2 h3{
+    padding: .4rem;
+    margin: 0;
+}
+
+.kop2 p{
+    padding: .4rem;
+    margin: 0;
+}
+
+.kop3{
+    display: flex;
+    background-color: beige;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 2px 2px 20px rgb(60, 60, 60);
+    min-height: 13rem;
+}
+
+.kop3 img{
+    max-width: 6rem;
+    margin: .4rem;
+    box-shadow: 2px 2px 20px rgb(60, 60, 60);
+    border-radius: 5px;
+}
+
+.kop3 h3{
+    padding: .4rem;
+    margin: 0;
+}
+
+.kop3 p{
+    padding: .4rem;
+    margin: 0;
+}
