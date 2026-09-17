@@ -1,26 +1,26 @@
 h1{
-    font-family: Oswald;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2{
-    font-family: Oswald;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     margin: 0;
     margin-bottom: 1rem;
 }
 
 h3{
-    font-family: Roboto;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: medium;
 }
 
 h4{
-    font-family: Oswald;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p{
-    font-family: Roboto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a{
@@ -97,7 +97,7 @@ nav li:hover a {
 }
 
 nav a{
-    font-family: Roboto;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: white;
 }
