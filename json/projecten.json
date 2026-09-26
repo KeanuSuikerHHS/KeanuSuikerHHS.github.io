@@ -1,0 +1,21 @@
+[
+    {
+        "img":"../images/ConwayGameOfLife.png"
+        ,
+        "title":"KeanuSuikerGameOfLife"
+        ,
+        "description":"In deze simulatie evolueert een grid van cellen van generatie op generatie op basis van een vaste set regels. Het is een 'zero-player game', wat betekent dat de evolutie uitsluitend wordt bepaald door de begintoestand, zonder verdere input van de speler. Het demonstreert prachtig hoe complexe en chaotische patronen kunnen ontstaan uit zeer simpele basisvoorwaarden."
+        ,
+        "link":"https://github.com/KeanuSuikerHHS/KeanuSuikerGameOfLife"
+    }
+    ,
+    {
+        "img":"../images/62dfed9c4df6bbcbd5e4cb6cc35cbdb6.jpg"
+        ,
+        "title":"More Coming Soon"
+        ,
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse ex perferendis exercitationem nihil officiis sunt reprehenderit impedit earum eligendi quos provident facere animi, alias eius eum facilis. Aperiam, voluptatibus id!"
+        ,
+        "link":"https://github.com/KeanuSuikerHHS"
+    }
+]
