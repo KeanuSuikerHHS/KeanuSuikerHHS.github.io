@@ -1,0 +1,29 @@
+.newskaart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #E2E8F0;
+    max-width: 30rem;
+    padding: 1rem;
+}
+
+.newskaart img {
+    width: 6rem;
+    height: 6rem;
+}
+
+.newskaart h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
