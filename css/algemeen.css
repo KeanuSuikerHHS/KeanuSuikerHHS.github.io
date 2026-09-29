@@ -123,10 +123,11 @@ nav a{
     color: white;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
     header {
         flex-direction: column; 
         text-align: center;
+        max-height: 12rem;
     }
 
     header h1 {
@@ -142,8 +143,9 @@ nav a{
         padding: 0;
         justify-content: center;
         flex-wrap: wrap;
-        min-height: 10rem;
+        min-height: 6rem;
         min-width: 7rem;
+        row-gap: none;
     }
 
     footer{
@@ -162,5 +164,18 @@ nav a{
 
     .blogkaart {
         max-width: 100%;
+    }
+
+    #kopimg{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .filters {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+        max-width: 90%;
     }
 }

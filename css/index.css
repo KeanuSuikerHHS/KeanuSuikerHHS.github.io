@@ -22,6 +22,8 @@
     margin: .4rem;
     box-shadow: 2px 2px 20px rgb(60, 60, 60);
     border-radius: 5px;
+    min-height: 15rem;
+    max-height: 30rem;
 }
 
 .kop1 h3{
@@ -49,6 +51,8 @@
     margin: .4rem;
     box-shadow: 2px 2px 20px rgb(60, 60, 60);
     border-radius: 5px;
+    min-height: 15rem;
+    max-height: 30rem;
 }
 
 .kop2 h3{
@@ -75,6 +79,8 @@
     margin: .4rem;
     box-shadow: 2px 2px 20px rgb(60, 60, 60);
     border-radius: 5px;
+    min-height: 15rem;
+    max-height: 30rem;
 }
 
 .kop3 h3{

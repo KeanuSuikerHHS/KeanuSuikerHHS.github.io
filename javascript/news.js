@@ -1,10 +1,15 @@
 const newsbox = document.querySelector(".news");
 
 async function fetchnews () {
+    const laadText = document.createElement("p");
+    laadText.textContent = "Nieuws wordt ingeladen";
+    newsbox.append(laadText);
     try{
+        newsbox.textContent
         const res = await fetch('https://api.spaceflightnewsapi.net/v4/articles');
         const data = await res.json();
-        artikelen = data.results;
+        let artikelen = data.results;
+        laadText.remove();
         for (let index = 0; index < 5; index++) {
             const artikel = artikelen[index];
             const newskaart = document.createElement("article");
@@ -25,6 +30,10 @@ async function fetchnews () {
     }
     catch(error){
         console.error(error);
+        laadText.remove();
+        const errorText = document.createElement("p");
+        errorText.textContent = "Nieuws kon niet worden ingeladen";
+        newsbox.append(errorText);
     }
 }
 
