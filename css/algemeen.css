@@ -79,29 +79,28 @@ nav ul{
     max-width: 28rem;
 }
 
-nav li{
-    border-style: solid;
-    padding: .6rem;
-    border-color: white;
-    border-radius: 15px;
-    flex-basis: 4.4rem;
-    text-align: center;
-    max-height: 1.5rem;
+nav li {
+    flex-basis: 5.5rem;
+    display: flex;
 }
 
-nav li:hover{
+nav button:hover {
     background-color: white;
-
+    color: #1A365D;
 }
 
-nav li:hover a {
-    color: #1A365D; 
-}
-
-nav a{
+nav button {
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 14px;
+    padding: 0.6rem; 
+    cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: white;
+    font-size: 1rem;
+    text-align: center;
 }
 
 #contact{
