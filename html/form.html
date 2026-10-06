@@ -27,14 +27,17 @@
             <article class="formcontainer">
                 <form id="form">
                     <label for="voornaam">Voornaam</label>
-                    <input type="text" id="voornaam" name="voornaam"><br>
-                    <h2 id="errorVoornaam"></h2>
+                    <input type="text" id="voornaam" name="voornaam" aria-describedby="errorVoornaam" aria-invalid="false"><br>
+                    <h2 id="errorVoornaam" aria-live="polite"></h2>
+
                     <label for="achternaam">Achternaam</label>
-                    <input type="text" id="achternaam" name="achternaam"><br>
-                    <h2 id="errorAchternaam"></h2>
+                    <input type="text" id="achternaam" name="achternaam" aria-describedby="errorAchternaam" aria-invalid="false"><br>
+                    <h2 id="errorAchternaam" aria-live="polite"></h2>
+
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email"><br>
-                    <h2 id="errorEmail"></h2>
+                    <input type="email" id="email" name="email" aria-describedby="errorEmail" aria-invalid="false"><br>
+                    <h2 id="errorEmail" aria-live="polite"></h2>
+
                     <button type="submit">Verstuur</button>
                 </form>
             </article>
